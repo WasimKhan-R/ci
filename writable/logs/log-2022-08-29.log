@@ -1,0 +1,320 @@
+CRITICAL - 2022-08-29 02:33:36 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\site\view.php on line 1.
+ 1 APPPATH\Views\site\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\site\\view.php', 1, [...])
+ 2 APPPATH\Views\site\view.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\site\\view.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/view.php', [], true)
+ 6 APPPATH\Controllers\index.php(14): view('site/view.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->view()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 02:43:34 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\Layout\master.php on line 12.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/view.php', [], true)
+ 4 APPPATH\Controllers\index.php(14): view('site/view.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->view()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 03:52:32 --> syntax error, unexpected '9' (T_LNUMBER), expecting ')'
+in APPPATH\Views\Layout\master.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/view.php', [], true)
+ 4 APPPATH\Controllers\index.php(14): view('site/view.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->view()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:30:59 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:31:12 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:31:15 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:31:19 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:34:39 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:34:43 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:35:46 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:35:48 --> Class 'config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:37:20 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Database\\MySQL\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\index.php(8): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:37:23 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Database\\MySQL\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\index.php(8): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:50:49 --> Class 'app\Config\Database' not found
+in APPPATH\Controllers\index.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:51:24 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Database\\MySQL\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\index.php(8): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:54:11 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Database\\MySQL\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\index.php(8): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 04:59:49 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Database\\MySQL\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\index.php(8): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 05:11:17 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Database\\MySQL\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\index.php(8): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\index->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:51:16 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from.php', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from.php')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:51:18 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from.php', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from.php')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:53:44 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from.php', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from.php')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:54:08 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:54:10 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:54:12 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:54:26 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:54:28 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:55:59 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:57:11 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:57:13 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:57:15 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:57:29 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:57:32 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:58:43 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:58:44 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:58:44 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:58:44 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:58:44 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 23:58:46 --> Invalid file: site/my-from.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/my-from.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('site/my-from', [], true)
+ 3 APPPATH\Controllers\index.php(8): view('site/my-from')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

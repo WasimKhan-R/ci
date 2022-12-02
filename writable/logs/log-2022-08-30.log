@@ -1,0 +1,65 @@
+CRITICAL - 2022-08-30 00:15:57 --> Call to a member function insert() on null
+in APPPATH\Controllers\index.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->dbsave()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:20:31 --> syntax error, unexpected '/'
+in APPPATH\Config\Routes.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:21:32 --> Invalid file: my-pagi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-pagi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('my-pagi', [], true)
+ 3 APPPATH\Controllers\index.php(12): view('my-pagi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->pagisave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:21:35 --> Invalid file: my-pagi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-pagi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('my-pagi', [], true)
+ 3 APPPATH\Controllers\index.php(12): view('my-pagi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->pagisave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:21:45 --> Invalid file: my-pagi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-pagi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('my-pagi', [], true)
+ 3 APPPATH\Controllers\index.php(12): view('my-pagi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->pagisave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:21:46 --> Invalid file: my-pagi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-pagi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('my-pagi', [], true)
+ 3 APPPATH\Controllers\index.php(12): view('my-pagi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->pagisave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:21:48 --> Invalid file: my-pagi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-pagi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('my-pagi', [], true)
+ 3 APPPATH\Controllers\index.php(12): view('my-pagi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->pagisave()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 02:10:45 --> Invalid file: moveimg.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('moveimg.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('moveimg', [], true)
+ 3 APPPATH\Controllers\index.php(14): view('moveimg')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\index->myFile()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
